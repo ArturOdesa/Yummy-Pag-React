@@ -1,0 +1,118 @@
+.main-container {
+    padding: 150px 375px;
+    text-align: center;
+   }
+   
+   .sweeties {
+       background-color: #FFF9EA;
+   }
+   
+   .sweeties .sweeties-title {
+       text-transform: uppercase;
+       margin: 0;
+       padding: 0;
+       font-size: 72px;
+       color: #774E2E;
+       line-height: 110%;
+       margin-bottom: 70px;
+   }
+   
+   .sweeties .sweeties-cards-holder {
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   .sweeties .sweeties-cards-holder .sweeties-card {
+       background-color: #fff;
+       width: 28%;
+       padding: 0 20px 36px;
+   }
+   
+   .sweeties .sweeties-cards-holder .sweeties-card .sweeties-card-title {
+       margin: 0;
+       margin-top: 36px;
+       margin-bottom: 15px;
+       font-family: "Montserrat SemiBold", sans-serif;
+       font-size: 24px;
+       color: #673B19;
+       line-height: 130%;
+       letter-spacing: 1%;
+   }
+   
+   .sweeties .sweeties-cards-holder .sweeties-card .sweeties-card-text {
+       font-size: 16px;
+       letter-spacing: 1%;
+       line-height: 150%;
+       color: #774E2E;
+       margin: 0;
+   }
+   
+   .hint .hint-wrap {
+       padding: 44px 0;
+       background-image: url(../../assets/images/hint-bg.png);
+       background-repeat: no-repeat;
+       background-position: right;
+   }
+   
+   .hint .hint-wrap .hint-content {
+       width: 50%;
+      text-align: left;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-title {
+       margin: 0;
+       font-family: "Montserrat Bold";
+       font-size: 72px;
+       line-height: 110%;
+       text-transform: uppercase;
+       letter-spacing: 2.5px;
+       margin-bottom: 30px;
+       color: #774E2E;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-text {
+       margin: 0;
+       padding: 0;
+       color: #774E2E;
+       font-size: 16px;
+       line-height: 150%;
+       margin-bottom: 60px;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-list-title {
+       margin: 0;
+       margin-top: 36px;
+       margin-bottom: 20px;
+       font-family: "Montserrat SemiBold", sans-serif;
+       font-size: 24px;
+       color: #673B19;
+       line-height: 130%;
+       letter-spacing: 1px;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-list {
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-list .hint-list-item {
+       margin: 0;
+       padding: 0;
+       color: #774E2E;
+       font-size: 16px;
+       line-height: 150%;
+       padding-left: 25px;
+   }
+   
+   .hint .hint-wrap .hint-content .hint-list .hint-list-item::before {
+       content: "";
+       background-color: #774E2E;
+       display: inline-block;
+       width: 5px;
+       height: 5px;
+       border-radius: 50%;
+       position: relative;
+       bottom: 3px;
+       right: 15px;
+   }
