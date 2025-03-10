@@ -1,0 +1,120 @@
+footer {
+    background-color: #774E2E;
+    text-align: right;
+}
+
+footer .footer-container {
+    padding: 40px 375px;
+}
+
+footer .footer-container .footer-content {
+    border: solid #774E2E;
+    background-image: url(../../assets/icons/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+footer .footer-container .footer-content .footer-text {
+    line-height: 130%;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1920px) {
+    body {
+        width: 100%;
+    }
+
+    .header-container {
+        padding: 30px 0 60px;
+        width: 90%;
+    }
+
+    .main-container {
+        padding: 150px 0;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+       }
+
+       footer .footer-container {
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1300px) {
+    .sweeties .sweeties-cards-holder {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .sweeties .sweeties-cards-holder .sweeties-card {
+        background-color: #fff;
+        width: 25%;
+        padding: 0 20px 36px;
+    }
+
+    .sweeties .sweeties-cards-holder .sweeties-card a img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1180px) {
+    footer .footer-container .footer-content .footer-text {
+        line-height: 150%;
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    footer .footer-container .footer-content {
+        height: 100px;
+        border: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .hint .hint-wrap .hint-content,
+    header .header-description .container {
+        width: 40%;
+       text-align: left;
+    }
+}
+
+@media (max-width: 960px) {
+    .header-container {
+        padding: 30px 0 60px;
+        width: 95%;
+    }
+
+    .main-container {
+        padding: 150px 0;
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+       }
+
+       footer .footer-container {
+        padding: 40px 0;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .hint .hint-wrap {
+        padding: 44px 0;
+        background-image: url(../assets/images/hint-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 50% 60%;
+    }
+
+    header .header-description {
+        background-image: url(../assets/images/description-bg.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50% 60%;
+    }
+}
