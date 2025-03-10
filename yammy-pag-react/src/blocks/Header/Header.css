@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat ExtraBold";
+    src: url(../../assets/fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url(../../assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .header-container {
+      padding: 30px 375px 60px;
+      margin: 0 auto;
+  }
+  
+  .header-container .nav-menu {
+      display: flex;
+      justify-content: end;
+      background-image: url(../../assets/icons/Logo-Yummy.png);
+      background-repeat: no-repeat;
+      align-items: center;
+      padding: 30px 0;
+      margin-bottom: 100px;
+  }
+  
+  .header-container .nav-menu .nav-list {
+      display: flex;
+      gap: 50px;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+  }
+  
+  .header-container .nav-menu .nav-list .nav-list-anchor {
+      color: #774E2E;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 1%;
+  }
+  
+  header .header-description .container {
+      padding: 60px 0 150px;
+      width: 50%;
+  }
+  
+  header .header-description .container .description-title {
+      color: #774E2E;
+      font-family: "Montserrat ExtraBold", sans-serif;
+      letter-spacing: 5%;
+      font-size: 100px;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 40px;
+  }
+  
+  .orange-text {
+      color: #F37F34;
+  }
+  
+  header .header-description {
+      background-image: url(../../assets/images/description-bg.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+  }
+  
+  header .header-description .container .description-text {
+      line-height: 150%;
+      margin: 0;
+      color: #774E2E;
+      font-size: 16px;
+      letter-spacing: 1%;
+      margin-bottom: 50px;
+  }
+  
+  header .header-description .container .description-link {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 130%;
+      letter-spacing: 1%;
+      background-color: #774E2E;
+      color: #fff;
+      transition: 0.2s ease-in-out;
+      padding: 22px 40px;
+  }
+  
+  header .header-description .container .description-link:hover {
+      background-color: #3e2918;
+      transform: scaleX(1.05);
+  }
